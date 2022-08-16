@@ -12,7 +12,7 @@ namespace dominio
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public float Precio { get; set; }
+        public decimal Precio { get; set; }
         public string UrlImagen { get; set; }
         [DisplayName("Tipo de madera")]
         public Madera Madera { get; set; }

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Personal.master.cs" Inherits="Almacen_app.Personal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Models/bootstrap.min.css" rel="stylesheet" />
+    <link href="Models/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12 col-md-4 mt-3">
+                <p class="text-center"><a class="btn btn-warning text-light">Agregar Producto</a></p>                
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+                <p class="text-center"><a class="btn btn-warning text-light">Lista De Productos</a></p>
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+                <p class="text-center"><a class="btn btn-danger text-light">Salir</a></p>
+            </div>
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="Models/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -72,12 +72,15 @@
     <Content Include="Img\carousel2.jpg" />
     <Content Include="Img\carousel3.jpg" />
     <Content Include="Img\Conocenos.jpg" />
+    <Content Include="Img\consejo.jpg" />
     <Content Include="Img\envioDomicilio.jpg" />
     <Content Include="Inicio.aspx" />
     <Content Include="Models\bootstrap.bundle.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Models\bootstrap.min.css" />
     <Content Include="Models\style.css" />
+    <Content Include="NuestrosProductos.aspx" />
+    <Content Include="PanelDeControl.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,11 +101,33 @@
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NuestrosProductos.aspx.cs">
+      <DependentUpon>NuestrosProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NuestrosProductos.aspx.designer.cs">
+      <DependentUpon>NuestrosProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelDeControl.aspx.cs">
+      <DependentUpon>PanelDeControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelDeControl.aspx.designer.cs">
+      <DependentUpon>PanelDeControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.Master.cs">
+      <DependentUpon>Personal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personal.Master.designer.cs">
+      <DependentUpon>Personal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cliente.Master" />
     <None Include="packages.config" />
+    <Content Include="Personal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

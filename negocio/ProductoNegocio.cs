@@ -25,6 +25,7 @@ namespace negocio
                     aux.Id = (int)datos.Lector["Id"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = decimal.Round((decimal)datos.Lector["Precio"], 2);
                     if (!(datos.Lector["UrlImagen"] is DBNull))
                         aux.UrlImagen = (string)datos.Lector["UrlImagen"];
                     aux.Categoria = new Categoria();

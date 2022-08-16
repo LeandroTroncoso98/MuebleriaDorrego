@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-12 col-md-6 align-self-center">
                 <h4 class="display-4 text-center text-md-start">Vení a conocernos.</h4>
-                <p class="text-secondary">Te esperamos para ayudarte a elegír el mejor estilo para tu hogar.</p>
+                <p class="text-secondary">Contamos con una diversa variedad de muebles para tu hogar.</p>
             </div>
             <div class="col-12 col-md-6">
                 <img src="Img/Conocenos.jpg" class="img-fluid img-thumbnail" />
@@ -58,6 +58,15 @@
             <div class="col-12 col-md-6 align-self-center">
                 <h4 class="display-4 text-center text-md-end">Envío a domicilio.</h4>
                 <p class="text-secondary">Contamos con envio a domicilio para que tu compra sea de lo mas agradable a la hora de volver a casa.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class=" col-12 col-md-6 align-self-center">
+                <h4 class="display-4 text-center text-md-start">Te esperamos.</h4>
+                <p class="text-secondary">Te ayudaremos a elegír el mejor estilo para tu hogar.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="Img/Consejo.jpg" class="img-fluid img-thumbnail" />
             </div>
         </div>
     </section>

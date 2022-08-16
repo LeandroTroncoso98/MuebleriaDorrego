@@ -1,0 +1,12 @@
+﻿body {
+    background: #efefea;
+}
+.backgroundPrincipal {
+    background-image: url("../Img/background.jpg");
+    height: 200px;
+    /*background-attachment: fixed;*/
+}
+.backgroundFooter {
+    background-image: url("../Img/background.jpg");
+    height: 100px;
+}

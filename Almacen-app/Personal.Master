@@ -15,13 +15,13 @@
     <nav class="container-fluid bg-dark">
         <div class="row">
             <div class="col-12 col-md-4 mt-3">
-                <p class="text-center"><a class="btn btn-warning text-light">Agregar Producto</a></p>                
+                <p class="text-center"><a href="FormProducto.aspx" class="btn btn-warning text-light">Agregar Producto</a></p>                
             </div>
             <div class="col-12 col-md-4 mt-3">
-                <p class="text-center"><a class="btn btn-warning text-light">Lista De Productos</a></p>
+                <p class="text-center"><a href="PanelDeControl.aspx" class="btn btn-warning text-light">Lista De Productos</a></p>
             </div>
             <div class="col-12 col-md-4 mt-3">
-                <p class="text-center"><a class="btn btn-danger text-light">Salir</a></p>
+                <p class="text-center"><a class="btn btn-danger text-light" href="Inicio.aspx">Salir</a></p>
             </div>
         </div>
     </nav>

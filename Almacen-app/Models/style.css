@@ -15,3 +15,8 @@
     background-image: url("../Img/background.jpg");
     height: 100px;
 }
+
+.img-productos{
+   max-height: 200px;
+   max-width:200px;
+}
